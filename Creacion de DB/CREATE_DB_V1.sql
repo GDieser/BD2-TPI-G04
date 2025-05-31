@@ -90,7 +90,7 @@ CREATE TABLE Productora(
 );
 
 CREATE TABLE Playlist(
-	Id BIGINT PRIMARY KEY IDENTITY(1,1),
+	Id BIGINT PRIMARY KEY IDENTITY(1,1) UNIQUE,
 	Nombre VARCHAR(50) NOT NULL,
 	EsPublica BIT NOT NULL DEFAULT 1,
 	Descripcion VARCHAR(255),
@@ -101,3 +101,47 @@ CREATE TABLE Playlist(
 	FOREIGN KEY (IdAdministrador) REFERENCES Usuario(Id),
 	UNIQUE (IdAdministrador, Nombre)
 );
+
+CREATE TABLE album(
+	Id INT PRIMARY KEY IDENTITY(1,1) UNIQUE,
+	Titulo VARCHAR(85) NOT NULL,
+	IdProductora INT NOT NULL,
+	FechaLanzamiento DATE NOT NULL, 
+	Portada VARCHAR(255) NOT NULL,
+	IdGenero INT NOT NULL FOREIGN KEY (IdGenero) REFERENCES GeneroMusical(Id),
+	IdTipoContenido INT NOT NULL FOREIGN KEY (IdTipoContenido) REFERENCES TipoContenido(Id),
+	
+);
+
+CREATE TABLE Contenido(
+	Id INT PRIMARY KEY IDENTITY(1,1),
+	Titulo VARCHAR(50) NOT NULL,
+	IdTipoContenido INT NOT NULL FOREIGN KEY (IdTipoContenido) REFERENCES TipoContenido(Id),
+	IdAlbum INT NOT NULL FOREIGN KEY (IdAlbum) REFERENCES Album(Id),
+	IdGenero INT NOT NULL FOREIGN KEY (IdGenero) REFERENCES GeneroMusical(Id),
+	IdProductora INT NOT NULL FOREIGN KEY (IdProductora) REFERENCES Productora(Id),
+	FechaLanzamiento DATE, 
+	Duracion INT NOT NULL,
+	Portada VARCHAR(255) NOT NULL,
+	FechaSubida DATE NOT NULL,
+	IDUsuarioDueño INT NOT NULL,
+	FormatoArchivo VARCHAR(20)
+	Descripcion VARCHAR(255),
+	Activo BIT NOT NULL DEFAULT 1, 	
+);
+
+CREATE TABLE interpretePorAlbum(
+	Id INT PRIMARY KEY IDENTITY(1,1) UNIQUE,
+	IdInterprete BIGINT UNIQUE NOT NULL FOREIGN KEY (IdInterprete) REFERENCES Interprete(Id),
+	IdAlbum BIGINT UNIQUE NOT NULL FOREIGN KEY (IdAlbum) REFERENCES Album(Id),
+	
+);
+
+CREATE TABLE interpreteArtista(
+	Id BIGINT PRIMARY KEY IDENTITY(1,1) UNIQUE,
+	IdInterprete BIGINT UNIQUE NOT NULL FOREIGN KEY (IdInterprete) REFERENCES Interprete(Id),
+	IdArtista BIGINT NOT NULL FOREIGN KEY (IdArtista) REFERENCES Artista(Id),
+	Fecha_Salida DATE,
+	Observaciones VARCHAR(255),	
+);
+
