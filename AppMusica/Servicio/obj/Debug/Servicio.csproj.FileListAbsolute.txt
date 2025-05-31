@@ -1,0 +1,6 @@
+C:\Users\germa\OneDrive\Desktop\BD2 TPI\BD2-TPI-G04\AppMusica\Servicio\bin\Debug\Servicio.dll
+C:\Users\germa\OneDrive\Desktop\BD2 TPI\BD2-TPI-G04\AppMusica\Servicio\bin\Debug\Servicio.pdb
+C:\Users\germa\OneDrive\Desktop\BD2 TPI\BD2-TPI-G04\AppMusica\Servicio\obj\Debug\Servicio.csproj.AssemblyReference.cache
+C:\Users\germa\OneDrive\Desktop\BD2 TPI\BD2-TPI-G04\AppMusica\Servicio\obj\Debug\Servicio.csproj.CoreCompileInputs.cache
+C:\Users\germa\OneDrive\Desktop\BD2 TPI\BD2-TPI-G04\AppMusica\Servicio\obj\Debug\Servicio.dll
+C:\Users\germa\OneDrive\Desktop\BD2 TPI\BD2-TPI-G04\AppMusica\Servicio\obj\Debug\Servicio.pdb
