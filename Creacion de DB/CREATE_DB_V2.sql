@@ -269,7 +269,7 @@ GO
 CREATE TABLE UsuarioMembresia (
     Id BIGINT IDENTITY(1,1) PRIMARY KEY,
     IdUsuario BIGINT NOT NULL,
-    IdTipoMembresia BIGINT NOT NULL,
+    IdTipoMembresia INT NOT NULL,
     FechaInicio DATE NOT NULL DEFAULT GETDATE(),
     FechaVencimiento DATE NOT NULL,
     Activa BIT NOT NULL DEFAULT 1,
@@ -292,5 +292,43 @@ BEGIN
     AND Activa = 1;
     
     PRINT 'Se actualizo con exito.';
+END;
+GO
+
+--Darian Hiebl
+--3)
+--vista_topNCanciones: Vista que muestra las canciones mas reproducidas en formas descendente
+CREATE VIEW vista_topNCanciones AS
+SELECT
+    c.id AS id_cancion,
+    c.titulo,
+    c.FechaLanzamiento,
+    c.duracion,
+    c.descripcion,
+    g.Nombre AS genero,
+    COUNT(r.id) AS TotalReproducciones
+FROM Contenido c
+INNER JOIN GeneroMusical g ON g.id = c.IdGenero
+INNER JOIN HistorialReproduccion r ON r.IdContenido = c.id
+WHERE c.Activo = 1
+GROUP BY 
+    c.id, c.titulo, c.FechaLanzamiento, c.duracion, c.descripcion, g.Nombre
+ORDER BY 
+    TotalReproducciones DESC;
+GO
+
+--4) fn_duracionTotalPlaylist: Funcion que devuelve la duracion en segundos de la playlist ingresada como parametro
+CREATE FUNCTION fn_duracionTotalPlaylist (@IdPlaylist BIGINT)
+RETURNS INT
+AS
+BEGIN
+    DECLARE @DuracionTotal INT;
+
+    SELECT @DuracionTotal = SUM(c.duracion)
+    FROM ContenidoPorPlaylist cp
+    INNER JOIN Contenido c ON c.id = cp.IdContenido
+    WHERE cp.IdPlaylist = @IdPlaylist;
+
+    RETURN ISNULL(@DuracionTotal, 0);
 END;
 GO
