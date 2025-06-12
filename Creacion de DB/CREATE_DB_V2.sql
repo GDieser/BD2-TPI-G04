@@ -251,16 +251,15 @@ BEGIN
         WHERE Id = @IdPlaylist;
         
         COMMIT TRANSACTION;
+
         PRINT 'Playlist eliminada';
     END TRY
     BEGIN CATCH
-        IF @@TRANCOUNT > 0
-            ROLLBACK TRANSACTION;
+		ROLLBACK TRANSACTION;
             
         PRINT 'Error durante la eliminacion: ' + ERROR_MESSAGE();
     END CATCH
 END;
-GO
 
 --2)
 --trg_finMembresia: al llegar la fecha de vencimiento, actualiza el estado de la membresía del usuario.
@@ -284,8 +283,7 @@ ON UsuarioMembresia
 AFTER INSERT, UPDATE
 AS
 BEGIN
-    SET NOCOUNT ON;
-    
+
     UPDATE UsuarioMembresia
     SET Activa = 0
     WHERE FechaVencimiento < GETDATE()
@@ -293,6 +291,7 @@ BEGIN
     
     PRINT 'Se actualizo con exito.';
 END;
+
 GO
 
 --Darian Hiebl
@@ -331,4 +330,45 @@ BEGIN
 
     RETURN ISNULL(@DuracionTotal, 0);
 END;
+
 GO
+
+--5) vista_usuariosActivos: usuarios con suscripciones activas, mostrando fecha de vencimiento.
+
+--aca tmb necesitamos la tabla intermedia
+
+CREATE VIEW vista_usuariosActivos AS
+SELECT 
+    U.Id AS IdUsuario,
+    U.NombreUsuario,
+    U.Nombre,
+    U.Apellido,
+    U.Email,
+    UM.FechaVencimiento
+
+FROM Usuario U INNER JOIN UsuarioMembresia um ON UM.IdUsuario = U.Id WHERE UM.Activa = 1;
+
+go
+
+--6) sp_agregarCancionAPlaylist agrega una canción a una playlist, validando que no esté repetida.
+
+CREATE PROCEDURE sp_agregarCancionAPlaylist
+    @IdPlaylist BIGINT,
+    @IdContenido BIGINT
+AS
+BEGIN
+    IF EXISTS (
+        SELECT IdContenido
+        FROM ContenidoPorPlaylist 
+        WHERE IdPlaylist = @IdPlaylist AND IdContenido = @IdContenido
+    )
+    BEGIN
+        PRINT 'Este contenido ya esta en la lista.';
+        RETURN;
+    END
+
+    INSERT INTO ContenidoPorPlaylist (IdPlaylist, IdContenido)
+    VALUES (@IdPlaylist, @IdContenido);
+
+    PRINT 'Contenido agregado correctamente a la list.';
+END;
