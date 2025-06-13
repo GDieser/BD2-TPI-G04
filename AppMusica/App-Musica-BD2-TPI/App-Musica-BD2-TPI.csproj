@@ -67,16 +67,48 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Album.aspx" />
+    <Content Include="Artista.aspx" />
+    <Content Include="Contenido.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Interprete.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Album.aspx.cs">
+      <DependentUpon>Album.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Album.aspx.designer.cs">
+      <DependentUpon>Album.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Artista.aspx.cs">
+      <DependentUpon>Artista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Artista.aspx.designer.cs">
+      <DependentUpon>Artista.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contenido.aspx.cs">
+      <DependentUpon>Contenido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contenido.aspx.designer.cs">
+      <DependentUpon>Contenido.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Interprete.aspx.cs">
+      <DependentUpon>Interprete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Interprete.aspx.designer.cs">
+      <DependentUpon>Interprete.aspx</DependentUpon>
     </Compile>
     <Compile Include="Master.Master.cs">
       <DependentUpon>Master.Master</DependentUpon>

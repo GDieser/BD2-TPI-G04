@@ -7,3 +7,12 @@ C:\Users\germa\OneDrive\Desktop\BD2 TPI\BD2-TPI-G04\AppMusica\Dominio\obj\Debug\
 C:\Users\germa\OneDrive\Desktop\BD2 TPI\BD2-TPI-G04\AppMusica\Dominio\obj\Debug\Dominio.csproj.Up2Date
 C:\Users\germa\OneDrive\Desktop\BD2 TPI\BD2-TPI-G04\AppMusica\Dominio\obj\Debug\Dominio.dll
 C:\Users\germa\OneDrive\Desktop\BD2 TPI\BD2-TPI-G04\AppMusica\Dominio\obj\Debug\Dominio.pdb
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Dominio\bin\Debug\Dominio.dll
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Dominio\bin\Debug\Dominio.pdb
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Dominio\bin\Debug\Servicio.dll
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Dominio\bin\Debug\Servicio.pdb
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Dominio\obj\Debug\Dominio.csproj.Up2Date
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Dominio\obj\Debug\Dominio.dll
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Dominio\obj\Debug\Dominio.pdb

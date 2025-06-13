@@ -1,0 +1,6 @@
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Servicio\bin\Release\Servicio.dll
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Servicio\bin\Release\Servicio.pdb
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Servicio\obj\Release\Servicio.csproj.AssemblyReference.cache
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Servicio\obj\Release\Servicio.csproj.CoreCompileInputs.cache
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Servicio\obj\Release\Servicio.dll
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Servicio\obj\Release\Servicio.pdb

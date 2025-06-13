@@ -1,0 +1,9 @@
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Dominio\bin\Release\Dominio.dll
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Dominio\bin\Release\Dominio.pdb
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Dominio\bin\Release\Servicio.dll
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Dominio\bin\Release\Servicio.pdb
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Dominio\obj\Release\Dominio.csproj.AssemblyReference.cache
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Dominio\obj\Release\Dominio.csproj.CoreCompileInputs.cache
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Dominio\obj\Release\Dominio.csproj.Up2Date
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Dominio\obj\Release\Dominio.dll
+C:\dhiebl\bd2\BD2-TPI-G04\AppMusica\Dominio\obj\Release\Dominio.pdb

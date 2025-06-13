@@ -1,9 +1,9 @@
 --Grupo 04
 
 CREATE DATABASE BD2_TPI_G04
+GO 
 
 USE BD2_TPI_G04
-
 GO
 
 CREATE TABLE TipoMembresia(
@@ -269,7 +269,7 @@ GO
 CREATE TABLE UsuarioMembresia (
     Id BIGINT IDENTITY(1,1) PRIMARY KEY,
     IdUsuario BIGINT NOT NULL,
-    IdTipoMembresia INT NOT NULL,
+    IdTipoMembresia BIGINT NOT NULL, -- Cambie tipo a BIGINT por error de Tipos
     FechaInicio DATE NOT NULL DEFAULT GETDATE(),
     FechaVencimiento DATE NOT NULL,
     Activa BIT NOT NULL DEFAULT 1,
@@ -297,7 +297,7 @@ GO
 
 --Darian Hiebl
 --3)
---vista_topNCanciones: Vista que muestra las canciones mas reproducidas en formas descendente
+--vista_topNCanciones: Vista que muestra las canciones mas reproducidas en forma descendente
 CREATE VIEW vista_topNCanciones AS
 SELECT
     c.id AS id_cancion,
@@ -332,3 +332,4 @@ BEGIN
     RETURN ISNULL(@DuracionTotal, 0);
 END;
 GO
+

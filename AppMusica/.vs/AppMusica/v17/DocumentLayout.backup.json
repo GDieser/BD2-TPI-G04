@@ -1,18 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\",
+  "WorkspaceRootPath": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\master.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\master.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\dhiebl\\bd2\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\contenido.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\contenido.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\dhiebl\\bd2\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\contenido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\contenido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\dhiebl\\bd2\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\interprete.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\interprete.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{640A8565-CD11-4E35-BCCA-9375BD1F4E19}|Servicio\\Servicio.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\servicio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\dhiebl\\bd2\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\interprete.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\interprete.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\dhiebl\\bd2\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\artista.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\artista.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\dhiebl\\bd2\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\dhiebl\\bd2\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\artista.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\artista.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{640A8565-CD11-4E35-BCCA-9375BD1F4E19}|Servicio\\Servicio.csproj|C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\servicio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{640A8565-CD11-4E35-BCCA-9375BD1F4E19}|Servicio\\Servicio.csproj|solutionrelative:servicio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\dhiebl\\bd2\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\album.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\album.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\dhiebl\\bd2\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\master.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\master.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BF0CAD3-4212-44B8-A60D-3506ED512D35}|Dominio\\Dominio.csproj|c:\\dhiebl\\bd2\\bd2-tpi-g04\\appmusica\\dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BF0CAD3-4212-44B8-A60D-3506ED512D35}|Dominio\\Dominio.csproj|solutionrelative:dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,28 +58,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccesoDatos.cs",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\Servicio\\AccesoDatos.cs",
-              "RelativeDocumentMoniker": "Servicio\\AccesoDatos.cs",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\Servicio\\AccesoDatos.cs",
-              "RelativeToolTip": "Servicio\\AccesoDatos.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAgwGcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Interprete.aspx.cs",
+              "DocumentMoniker": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Interprete.aspx.cs",
+              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Interprete.aspx.cs",
+              "ToolTip": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Interprete.aspx.cs",
+              "RelativeToolTip": "App-Musica-BD2-TPI\\Interprete.aspx.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAuwHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T03:13:10.05Z",
+              "WhenOpened": "2025-06-13T00:08:14.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Contenido.aspx.cs",
+              "DocumentMoniker": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Contenido.aspx.cs",
+              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Contenido.aspx.cs",
+              "ToolTip": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Contenido.aspx.cs",
+              "RelativeToolTip": "App-Musica-BD2-TPI\\Contenido.aspx.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAQwKUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T22:33:38.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Contenido.aspx",
+              "DocumentMoniker": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Contenido.aspx",
+              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Contenido.aspx",
+              "ToolTip": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Contenido.aspx",
+              "RelativeToolTip": "App-Musica-BD2-TPI\\Contenido.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-12T22:28:43.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Default.aspx",
+              "DocumentMoniker": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Default.aspx",
               "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Default.aspx",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Default.aspx",
+              "ToolTip": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Default.aspx",
               "RelativeToolTip": "App-Musica-BD2-TPI\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -52,11 +134,102 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Interprete.aspx",
+              "DocumentMoniker": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Interprete.aspx",
+              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Interprete.aspx",
+              "ToolTip": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Interprete.aspx",
+              "RelativeToolTip": "App-Musica-BD2-TPI\\Interprete.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-12T22:25:36.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Artista.aspx.cs",
+              "DocumentMoniker": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Artista.aspx.cs",
+              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Artista.aspx.cs",
+              "ToolTip": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Artista.aspx.cs",
+              "RelativeToolTip": "App-Musica-BD2-TPI\\Artista.aspx.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T00:33:13.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Default.aspx.cs",
+              "ToolTip": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Default.aspx.cs",
+              "RelativeToolTip": "App-Musica-BD2-TPI\\Default.aspx.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwDgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:55:11.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Artista.aspx",
+              "DocumentMoniker": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Artista.aspx",
+              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Artista.aspx",
+              "ToolTip": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Artista.aspx",
+              "RelativeToolTip": "App-Musica-BD2-TPI\\Artista.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-13T00:32:33.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccesoDatos.cs",
+              "DocumentMoniker": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\Servicio\\AccesoDatos.cs",
+              "RelativeDocumentMoniker": "Servicio\\AccesoDatos.cs",
+              "ToolTip": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\Servicio\\AccesoDatos.cs",
+              "RelativeToolTip": "Servicio\\AccesoDatos.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAIwJYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:13:10.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\Dominio\\Usuario.cs",
+              "RelativeDocumentMoniker": "Dominio\\Usuario.cs",
+              "ToolTip": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\Dominio\\Usuario.cs",
+              "RelativeToolTip": "Dominio\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T22:36:51.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Album.aspx",
+              "DocumentMoniker": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Album.aspx",
+              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Album.aspx",
+              "ToolTip": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Album.aspx",
+              "RelativeToolTip": "App-Musica-BD2-TPI\\Album.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-12T22:25:23.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Master.Master",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Master.Master",
+              "DocumentMoniker": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Master.Master",
               "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Master.Master",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Master.Master",
+              "ToolTip": "C:\\dhiebl\\bd2\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Master.Master",
               "RelativeToolTip": "App-Musica-BD2-TPI\\Master.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
