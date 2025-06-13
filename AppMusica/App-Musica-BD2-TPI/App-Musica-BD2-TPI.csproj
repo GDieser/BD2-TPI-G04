@@ -71,7 +71,10 @@
     <Content Include="Artista.aspx" />
     <Content Include="Contenido.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Genero.aspx" />
     <Content Include="Interprete.aspx" />
+    <Content Include="Productora.aspx" />
+    <Content Include="TipoContenido.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -103,6 +106,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Genero.aspx.cs">
+      <DependentUpon>Genero.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Genero.aspx.designer.cs">
+      <DependentUpon>Genero.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Interprete.aspx.cs">
       <DependentUpon>Interprete.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -117,7 +127,21 @@
     <Compile Include="Master.Master.designer.cs">
       <DependentUpon>Master.Master</DependentUpon>
     </Compile>
+    <Compile Include="Productora.aspx.cs">
+      <DependentUpon>Productora.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Productora.aspx.designer.cs">
+      <DependentUpon>Productora.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TipoContenido.aspx.cs">
+      <DependentUpon>TipoContenido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TipoContenido.aspx.designer.cs">
+      <DependentUpon>TipoContenido.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Master.Master" />

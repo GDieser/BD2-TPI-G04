@@ -11,7 +11,7 @@ namespace App_Musica_BD2_TPI
 {
 
 
-    public partial class Album
+    public partial class Productora
     {
 
         /// <summary>
@@ -33,139 +33,85 @@ namespace App_Musica_BD2_TPI
         protected global::System.Web.UI.WebControls.Panel pnlForm;
 
         /// <summary>
-        /// lblTitulo control.
+        /// hfIDUsuarioDuenio control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTitulo;
+        protected global::System.Web.UI.WebControls.HiddenField hfIDUsuarioDuenio;
 
         /// <summary>
-        /// txtTitulo control.
+        /// lblNombre control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTitulo;
+        protected global::System.Web.UI.WebControls.Label lblNombre;
 
         /// <summary>
-        /// lblProductora control.
+        /// txtNombre control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblProductora;
+        protected global::System.Web.UI.WebControls.TextBox txtNombre;
 
         /// <summary>
-        /// ddlProductora control.
+        /// lblPais control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlProductora;
+        protected global::System.Web.UI.WebControls.Label lblPais;
 
         /// <summary>
-        /// btnAddProductora control.
+        /// txtPais control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAddProductora;
+        protected global::System.Web.UI.WebControls.TextBox txtPais;
 
         /// <summary>
-        /// lblFecha control.
+        /// lblWeb control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFecha;
+        protected global::System.Web.UI.WebControls.Label lblWeb;
 
         /// <summary>
-        /// txtFecha control.
+        /// txtWeb control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFecha;
+        protected global::System.Web.UI.WebControls.TextBox txtWeb;
 
         /// <summary>
-        /// lblPortada control.
+        /// lblLogo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPortada;
+        protected global::System.Web.UI.WebControls.Label lblLogo;
 
         /// <summary>
-        /// txtPortada control.
+        /// txtLogo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPortada;
-
-        /// <summary>
-        /// lblGenero control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblGenero;
-
-        /// <summary>
-        /// ddlGenero control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlGenero;
-
-        /// <summary>
-        /// btnAddGenero control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAddGenero;
-
-        /// <summary>
-        /// lblTipoContenido control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTipoContenido;
-
-        /// <summary>
-        /// ddlTipoContenido control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlTipoContenido;
-
-        /// <summary>
-        /// btnAddTipoContenido control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAddTipoContenido;
+        protected global::System.Web.UI.WebControls.TextBox txtLogo;
 
         /// <summary>
         /// btnGuardar control.

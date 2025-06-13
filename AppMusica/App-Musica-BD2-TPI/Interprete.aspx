@@ -40,7 +40,7 @@
                         <div class="input-group">
                             <asp:DropDownList ID="ddlArtistas" runat="server" CssClass="form-control" />
                             <div class="input-group-append">
-                                <asp:Button ID="btnAgregarArtista" runat="server" Text="➕" CssClass="btn btn-success" OnClick="btnAgregarArtista_Click" />
+                                <asp:Button ID="btnAgregarArtista" runat="server" Text="+" CssClass="btn btn-secondary" OnClick="btnAgregarArtista_Click" />
                             </div>
                         </div>
                     </div>

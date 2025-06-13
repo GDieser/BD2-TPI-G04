@@ -70,22 +70,22 @@ namespace App_Musica_BD2_TPI
 
         protected void btnAddTipoContenido_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("TipoContenido.aspx");
         }
 
         protected void btnAddAlbum_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Album.aspx");
         }
 
         protected void btnAddGenero_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Genero.aspx");
         }
 
         protected void btnAddProductora_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Productora.aspx");
         }
 
         protected void btnGuardar_Click(object sender, EventArgs e)

@@ -28,7 +28,7 @@ VALUES ('Inglés');
 INSERT INTO Productora (Nombre, PaisOrigen, Web, Logo, IdAdministrador)
 VALUES ('Columbia Records', 'EE.UU.', 'https://www.columbiarecords.com', NULL, 4);
 
-SELECT * FROM Productora
+SELECT * FROM TipoContenido
 
 INSERT INTO Album (Titulo, IdProductora, FechaLanzamiento, Portada, IdGenero, IdTipoContenido)
 VALUES ('Random Access Memories', 4, '2013-05-17', 'https://upload.wikimedia.org/wikipedia/en/a/a7/Random_Access_Memories.jpg', 1, 1);
