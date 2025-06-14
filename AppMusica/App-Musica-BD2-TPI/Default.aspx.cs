@@ -56,7 +56,7 @@ namespace App_Musica_BD2_TPI
         private void SimularReproduccion(long idContenido)
         {
             //long idUsuario = ObtenerIdUsuarioLogueado();
-            long idUsuario = 4; // Tenemos qeu traer el IDUSuario una vez que hagamos el login
+            long idUsuario = 1; // Tenemos qeu traer el IDUSuario una vez que hagamos el login
 
             Random rnd = new Random();
             int tiempoReproduccion = rnd.Next(0, 300);

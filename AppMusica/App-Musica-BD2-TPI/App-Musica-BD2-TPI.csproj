@@ -73,7 +73,10 @@
     <Content Include="Default.aspx" />
     <Content Include="Genero.aspx" />
     <Content Include="Interprete.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="PerfiUsuario.aspx" />
     <Content Include="Productora.aspx" />
+    <Content Include="Registrar.aspx" />
     <Content Include="TipoContenido.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -120,12 +123,26 @@
     <Compile Include="Interprete.aspx.designer.cs">
       <DependentUpon>Interprete.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Master.Master.cs">
       <DependentUpon>Master.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Master.Master.designer.cs">
       <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PerfiUsuario.aspx.cs">
+      <DependentUpon>PerfiUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PerfiUsuario.aspx.designer.cs">
+      <DependentUpon>PerfiUsuario.aspx</DependentUpon>
     </Compile>
     <Compile Include="Productora.aspx.cs">
       <DependentUpon>Productora.aspx</DependentUpon>
@@ -135,6 +152,13 @@
       <DependentUpon>Productora.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registrar.aspx.cs">
+      <DependentUpon>Registrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registrar.aspx.designer.cs">
+      <DependentUpon>Registrar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TipoContenido.aspx.cs">
       <DependentUpon>TipoContenido.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -13,54 +13,63 @@
 
 </head>
 <body>
-    <div class="d-flex flex-column min-vh-100">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Mi Música</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Buscar" />
-                        <button class="btn btn-primary" type="submit">Buscar</button>
-                    </form>
+    <form id="form1" runat="server">
+        <div class="d-flex flex-column min-vh-100">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark px-3">
+                <div class="container-fluid">
+
+                    <a class="navbar-brand" href="Default.aspx">MiMúsica</a>
+
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Canciones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Artistas</a>
+                            </li>
+                        </ul>
+
+                        <div class="d-flex">
+
+                            <asp:HyperLink ID="btnLogin" runat="server" CssClass="btn btn-success" NavigateUrl="Login.aspx">Login</asp:HyperLink>
+
+                        </div>
+
+                        <% if (usuario != null)
+                            { %>
+
+                        <div class="d-flex">
+                            <asp:HyperLink ID="btnPerfil" runat="server" CssClass="btn btn-success" NavigateUrl="PerfiUsuario.aspx">Perfil</asp:HyperLink>
+                        </div>
+                        <div class="d-flex">
+                            <asp:Button ID="btnLogout" CssClass="btn btn-danger" OnClick="btnLogout_Click" Text="Logout" runat="server" />
+                        </div>
+                        <%} %>
+                    </div>
                 </div>
-            </div>
-        </nav>
-
-        <form id="form1" runat="server">
-            <div>
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                </asp:ContentPlaceHolder>
-            </div>
-        </form>
+            </nav>
 
 
-        <footer class="bg-dark text-white text-center py-3 mt-auto">&copy; 2025 - Grupo 04</footer>
-    </div>
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <footer class="bg-dark text-white text-center py-3 mt-auto" data-bs-theme="dark">
+                &copy;2025 MisCursos
+            </footer>
+        </div>
+    </form>
+
 </body>
 </html>
