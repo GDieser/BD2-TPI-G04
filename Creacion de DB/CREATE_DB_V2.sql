@@ -401,3 +401,112 @@ BEGIN
 END;
 GO
 
+--8
+--Tamara Frias
+--Espacio para la vista
+
+
+
+
+
+
+
+
+
+
+
+--SCRIPTS DE INSERCIÓN:
+
+-- 1 Artistas
+	
+INSERT INTO Artista (Nombre, Apellido, NombreArtistico, FechaNacimiento, ImagenPerfil)
+VALUES
+('Luis', 'Martínez', 'LuMart', '1990-04-15', 'luis.jpg'),
+('María', 'Gómez', 'MariGo', '1987-08-10', 'maria.jpg'),
+('Carlos', 'Díaz', 'CarlBeat', '1992-01-22', 'carlos.jpg'),
+('Ana', 'López', 'AnaLuna', '1995-06-30', 'ana.jpg'),
+('José', 'Fernández', 'JFer', '1985-09-14', 'jose.jpg'),
+('Laura', 'Pérez', 'LauPop', '1993-12-02', 'laura.jpg'),
+('Ricardo', 'Ramírez', 'RickR', '1988-03-18', 'ricardo.jpg'),
+('Daniela', 'Suárez', 'DaniS', '1991-07-24', 'daniela.jpg'),
+('Fernando', 'Castro', 'FerCast', '1983-05-05', 'fernando.jpg'),
+('Cecilia', 'Ríos', 'CeciR', '1996-11-20', 'cecilia.jpg'),
+('Tomás', 'Moreno', 'Tomo', '1994-02-12', 'tomas.jpg'),
+('Sofía', 'Núñez', 'SofiBeats', '1997-10-06', 'sofia.jpg'),
+('Martín', 'Vega', 'Mave', '1990-01-01', 'martin.jpg'),
+('Andrea', 'Herrera', 'AndHer', '1992-09-19', 'andrea.jpg'),
+('Lucas', 'Cabrera', 'LuCab', '1989-04-09', 'lucas.jpg'); 
+;
+
+-- Usuarios
+
+INSERT INTO Usuario (NombreUsuario, Nombre, Apellido, Email, Pass, FechaNacimiento, Pais, FotoPerfil, IdIdioma, IdRol)
+VALUES
+('juan123', 'Juan', 'Pérez', 'juan@gmail.com', 'pass123', '1995-05-10', 'Argentina', 'juan.jpg', 1, 1),
+('maria_g', 'María', 'García', 'maria@gmail.com', 'pass123', '1992-08-15', 'Chile', 'maria.jpg', 1, 1),
+('lucas22', 'Lucas', 'Rodríguez', 'lucas@gmail.com', 'pass123', '1990-12-01', 'México', 'lucas.jpg', 1, 1),
+('ana_lo', 'Ana', 'López', 'ana@gmail.com', 'pass123', '1998-04-20', 'Colombia', 'ana.jpg', 1, 1),
+('tomi98', 'Tomás', 'Fernández', 'tomas@gmail.com', 'pass123', '1996-07-30', 'Uruguay', 'tomas.jpg', 1, 1),
+('sofia_b', 'Sofía', 'Benítez', 'sofia@gmail.com', 'pass123', '1999-03-25', 'Argentina', 'sofia.jpg', 1, 1),
+('daniel_t', 'Daniel', 'Torres', 'daniel@gmail.com', 'pass123', '1985-11-13', 'Perú', 'daniel.jpg', 1, 1),
+('carla_h', 'Carla', 'Herrera', 'carla@gmail.com', 'pass123', '1993-06-05', 'Chile', 'carla.jpg', 1, 1),
+('leo_b', 'Leandro', 'Bustos', 'leandro@gmail.com', 'pass123', '1989-09-28', 'Argentina', 'leo.jpg', 1, 1),
+('flor_c', 'Florencia', 'Cruz', 'florencia@gmail.com', 'pass123', '1997-01-17', 'Ecuador', 'flor.jpg', 1, 1),
+('martin_r', 'Martín', 'Ramírez', 'martin@gmail.com', 'pass123', '1994-10-12', 'Paraguay', 'martin.jpg', 1, 1),
+('vale_m', 'Valentina', 'Mendoza', 'valentina@gmail.com', 'pass123', '1992-02-09', 'Argentina', 'valen.jpg', 1, 1),
+('fede_c', 'Federico', 'Correa', 'fede@gmail.com', 'pass123', '1987-12-31', 'Chile', 'fede.jpg', 1, 1),
+('romi_v', 'Romina', 'Vega', 'romina@gmail.com', 'pass123', '1995-08-08', 'México', 'romina.jpg', 1, 1),
+('gabi_p', 'Gabriel', 'Paredes', 'gabriel@gmail.com', 'pass123', '1991-03-14', 'Argentina', 'gabriel.jpg', 1, 1);
+
+-- Playlist
+
+INSERT INTO Playlist (Nombre, EsPublica, Descripcion, ImagenURL, FechaCreacion, IdAdministrador)
+VALUES
+('Rock Clásico', 1, 'Los mejores clásicos del rock', 'rock.jpg', GETDATE(), 1),
+('Pop Hits', 1, 'Canciones pop más escuchadas', 'pop.jpg', GETDATE(), 2),
+('Relajación', 0, 'Playlist para relajarte', 'relax.jpg', GETDATE(), 3),
+('Fiesta Latina', 1, 'Temas para bailar toda la noche', 'fiesta.jpg', GETDATE(), 4),
+('Workout', 1, 'Motivación para entrenar', 'gym.jpg', GETDATE(), 5),
+('Estudio Chill', 0, 'Para estudiar tranquilo', 'study.jpg', GETDATE(), 6),
+('Románticas', 1, 'Canciones para enamorados', 'love.jpg', GETDATE(), 7),
+('Indie Latino', 1, 'Lo mejor del indie regional', 'indie.jpg', GETDATE(), 8),
+('Jazz Nights', 0, 'Jazz para la noche', 'jazz.jpg', GETDATE(), 9),
+('Trap Argento', 1, 'Trap nacional', 'trap.jpg', GETDATE(), 10),
+('Top 2025', 1, 'Top de este año', 'top2025.jpg', GETDATE(), 11),
+('Metal Total', 1, 'Para sacudir la cabeza', 'metal.jpg', GETDATE(), 12),
+('Música para dormir', 0, 'Canciones suaves para dormir', 'sleep.jpg', GETDATE(), 13),
+('Hits de los 80', 1, 'Lo mejor de los 80', '80s.jpg', GETDATE(), 14),
+('Electro Beats', 1, 'Electrónica para todos', 'electro.jpg', GETDATE(), 15);
+
+-- Albumes 
+
+INSERT INTO Album (Titulo, IdProductora, FechaLanzamiento, Portada, IdGenero, IdTipoContenido)
+VALUES
+('Energía', 1, '2022-05-10', 'energia.jpg', 1, 1),
+('Atardecer', 1, '2021-11-20', 'atardecer.jpg', 2, 1),
+('Misterio', 1, '2020-08-15', 'misterio.jpg', 3, 1),
+('Corazones Rotos', 1, '2023-01-01', 'corazones.jpg', 4, 1),
+('Ritmo Latino', 1, '2019-07-25', 'ritmolatino.jpg', 5, 1),
+('Electro Shock', 1, '2024-04-12', 'electro.jpg', 6, 1),
+('Sin Miedo', 1, '2018-10-30', 'sinmiedo.jpg', 1, 1),
+('Universo', 1, '2020-03-03', 'universo.jpg', 2, 1),
+('Raíces', 1, '2021-06-06', 'raices.jpg', 3, 1),
+('Luz y Sombra', 1, '2022-09-19', 'luzsombra.jpg', 4, 1),
+('Alma Rebelde', 1, '2023-02-28', 'alma.jpg', 5, 1),
+('Neón', 1, '2020-12-12', 'neon.jpg', 6, 1),
+('Pasado y Futuro', 1, '2021-01-15', 'pasado.jpg', 1, 1),
+('Respira', 1, '2024-07-07', 'respira.jpg', 2, 1),
+('Eclipse', 1, '2022-03-22', 'eclipse.jpg', 3, 1);
+
+
+
+
+
+
+
+
+
+
+
+
+
