@@ -128,7 +128,7 @@ CREATE TABLE Contenido(
     Duracion INT NOT NULL,						
     Portada VARCHAR(255) NOT NULL,				
     FechaSubida DATE NOT NULL DEFAULT GETDATE(),					
-    IDUsuarioDue�o BIGINT NOT NULL,				
+    IDUsuarioDueño BIGINT NOT NULL,				
     FormatoArchivo VARCHAR(20),					
     Descripcion VARCHAR(255),					
     Activo BIT NOT NULL DEFAULT 1, 		
@@ -137,7 +137,7 @@ CREATE TABLE Contenido(
     FOREIGN KEY (IdAlbum) REFERENCES Album(Id),
     FOREIGN KEY (IdGenero) REFERENCES GeneroMusical(Id),
     FOREIGN KEY (IdProductora) REFERENCES Productora(Id),
-    FOREIGN KEY (IDUsuarioDue�o) REFERENCES Usuario(Id)
+    FOREIGN KEY (IDUsuarioDueño) REFERENCES Usuario(Id)
 );
 
 CREATE TABLE InterpretePorAlbum(                 
@@ -262,7 +262,7 @@ BEGIN
 END;
 
 --2)
---trg_finMembresia: al llegar la fecha de vencimiento, actualiza el estado de la membres�a del usuario.
+--trg_finMembresia: al llegar la fecha de vencimiento, actualiza el estado de la membresía del usuario.
 
 --Vamos a necesitar un tabla intermedia
 CREATE TABLE UsuarioMembresia (
@@ -349,7 +349,7 @@ FROM Usuario U INNER JOIN UsuarioMembresia um ON UM.IdUsuario = U.Id WHERE UM.Ac
 
 go
 
---6) sp_agregarCancionAPlaylist agrega una canci�n a una playlist, validando que no est� repetida.
+--6) sp_agregarCancionAPlaylist agrega una canción a una playlist, validando que no esté repetida.
 
 CREATE PROCEDURE sp_agregarCancionAPlaylist
     @IdPlaylist BIGINT,
@@ -371,4 +371,33 @@ BEGIN
 
     PRINT 'Contenido agregado correctamente a la list.';
 END;
+
+--Jacob Fredes
+--7 
+--trg_registrarReproduccion: al registrar una reproducción, actualiza el contador de la canción.
+
+--Vamos a necesitar crear una columna en la tabla Contenido
+ALTER TABLE Contenido
+ADD ContadorReproducciones INT NOT NULL DEFAULT 0;
+
+-- Se activará después de una inserción en la tabla HistorialReproduccion, y se encargará de incrementar el contador de la canción reproducida:
+
+CREATE TRIGGER trg_registrarReproduccion
+ON HistorialReproduccion
+AFTER INSERT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Actualiza el contador por cada contenido reproducido (por si son múltiples inserciones)
+    UPDATE c
+    SET c.ContadorReproducciones = c.ContadorReproducciones + r.cant
+    FROM Contenido c
+    INNER JOIN (
+        SELECT IdContenido, COUNT(*) AS cant
+        FROM inserted
+        GROUP BY IdContenido
+    ) r ON c.Id = r.IdContenido;
+END;
+GO
 
