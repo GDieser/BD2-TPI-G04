@@ -14,6 +14,11 @@
                                 <h2>Mi Perfil</h2>
 
                                 <div class="mb-3">
+                                    <asp:Label runat="server" Text="Foto de Perfil:" />
+                                    <asp:Image runat="server" ID="imgFotoPerfil" CssClass="img-thumbnail" Width="150px" />
+                                </div>
+
+                                <div class="mb-3">
                                     <asp:Label runat="server" Text="Nombre de Usuario:" />
                                     <asp:Label runat="server" ID="lblNombreUsuario" CssClass="form-control" />
                                 </div>
@@ -49,9 +54,15 @@
                                 </div>
 
                                 <div class="mb-3">
-                                    <asp:Label runat="server" Text="Foto de Perfil:" />
-                                    <asp:Image runat="server" ID="imgFotoPerfil" CssClass="img-thumbnail" Width="150px" />
+                                    <asp:Label runat="server" Text="Membresia:" />
+                                    <asp:Label runat="server" ID="lblMembresia" CssClass="form-control" />
+                                    <br />
+
+                                    <asp:Button ID="btnContratar" OnClick="btnContratar_Click" CssClass="btn btn-primary" Text="Contratar" runat="server" />
+
+
                                 </div>
+
                             </asp:Panel>
                         </div>
                     </div>

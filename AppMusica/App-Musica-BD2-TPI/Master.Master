@@ -29,13 +29,13 @@
 
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                <a class="nav-link active" aria-current="page" href="Default.aspx">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Canciones</a>
+                                <a class="nav-link" href="VerContenido.aspx">Canciones</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Artistas</a>
+                                <a class="nav-link" href="Playlist.aspx">Playlist</a>
                             </li>
                         </ul>
 

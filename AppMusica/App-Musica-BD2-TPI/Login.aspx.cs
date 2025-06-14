@@ -53,6 +53,53 @@ namespace App_Musica_BD2_TPI
                     IdIdioma = Convert.ToInt32(fila["IdIdioma"]),
                     IdRol = Convert.ToInt32(fila["IdRol"])
                 };
+                datos.cerrarConexion();
+
+                UsuarioMembresia membresia = null;
+                long iduser = usuario.Id;
+                string con = "SELECT IdUsuario, IdTipoMembresia, FechaInicio, FechaVencimiento, Activa FROM UsuarioMembresia WHERE IdUsuario = @iduser";
+
+                List<SqlParameter> par = new List<SqlParameter>()
+                {
+                    new SqlParameter("@iduser", iduser),
+                };
+
+                DataTable tabla = datos.ObtenerTabla(con, par);
+
+                if (tabla.Rows.Count > 0)
+                {
+                    DataRow mem = tabla.Rows[0];
+                    membresia = new UsuarioMembresia
+                    {
+                        IdUsuario = usuario.Id,
+                        IdTipoMembresia = Convert.ToInt32(mem["IdTipoMembresia"]),
+                        FechaInicio = Convert.ToDateTime(mem["FechaInicio"]),
+                        FechaVencimiento = Convert.ToDateTime(mem["FechaVencimiento"]),
+                        Activa = Convert.ToBoolean(mem["Activa"]),
+                    };
+
+                    usuario.EstadoMembresia = membresia;
+                    usuario.Membresia = Convert.ToBoolean(mem["Activa"]);
+                }
+                else
+                {
+                    usuario.Membresia = false;
+                }
+
+                //Aca forzamos, pero podria ser por un update de ultima conexio o algo asi
+                string forzarTrigger = @"
+                    UPDATE UsuarioMembresia 
+                    SET IdUsuario = IdUsuario 
+                    WHERE IdUsuario = @iduser";
+
+                List<SqlParameter> triggerParams = new List<SqlParameter>
+                {
+                        new SqlParameter("@iduser", usuario.Id)
+                };
+                //trg_finMembresia
+
+                datos.EjecutarConsulta(forzarTrigger, triggerParams);
+
 
                 Session["Usuario"] = usuario;
                 Response.Redirect("Default.aspx");

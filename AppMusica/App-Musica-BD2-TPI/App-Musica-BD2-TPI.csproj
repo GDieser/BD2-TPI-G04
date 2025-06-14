@@ -70,14 +70,17 @@
     <Content Include="Album.aspx" />
     <Content Include="Artista.aspx" />
     <Content Include="Contenido.aspx" />
+    <Content Include="ContratarMembresia.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Genero.aspx" />
     <Content Include="Interprete.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="PerfiUsuario.aspx" />
+    <Content Include="Playlist.aspx" />
     <Content Include="Productora.aspx" />
     <Content Include="Registrar.aspx" />
     <Content Include="TipoContenido.aspx" />
+    <Content Include="VerContenido.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -101,6 +104,13 @@
     </Compile>
     <Compile Include="Contenido.aspx.designer.cs">
       <DependentUpon>Contenido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContratarMembresia.aspx.cs">
+      <DependentUpon>ContratarMembresia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContratarMembresia.aspx.designer.cs">
+      <DependentUpon>ContratarMembresia.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -144,6 +154,13 @@
     <Compile Include="PerfiUsuario.aspx.designer.cs">
       <DependentUpon>PerfiUsuario.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Playlist.aspx.cs">
+      <DependentUpon>Playlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Playlist.aspx.designer.cs">
+      <DependentUpon>Playlist.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Productora.aspx.cs">
       <DependentUpon>Productora.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -165,6 +182,13 @@
     </Compile>
     <Compile Include="TipoContenido.aspx.designer.cs">
       <DependentUpon>TipoContenido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VerContenido.aspx.cs">
+      <DependentUpon>VerContenido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VerContenido.aspx.designer.cs">
+      <DependentUpon>VerContenido.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

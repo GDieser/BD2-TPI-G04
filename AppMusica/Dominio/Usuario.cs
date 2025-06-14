@@ -19,6 +19,8 @@ namespace Dominio
         public string FotoPerfil { get; set; }
         public int IdIdioma { get; set; }
         public int IdRol { get; set; }
+        public UsuarioMembresia EstadoMembresia { get; set; }
+        public bool Membresia {  get; set; }
 
     }
 }

@@ -26,30 +26,34 @@ INSERT INTO Idioma (Nombre)
 VALUES ('Inglés');
 
 INSERT INTO Productora (Nombre, PaisOrigen, Web, Logo, IdAdministrador)
-VALUES ('Columbia Records', 'EE.UU.', 'https://www.columbiarecords.com', NULL, 4);
+VALUES ('Columbia Records', 'EE.UU.', 'https://www.columbiarecords.com', NULL, 1);
 
-SELECT * FROM TipoContenido
+SELECT * FROM Interprete
+SELECT * FROM InterpretePorAlbum
 
 INSERT INTO Album (Titulo, IdProductora, FechaLanzamiento, Portada, IdGenero, IdTipoContenido)
-VALUES ('Random Access Memories', 4, '2013-05-17', 'https://upload.wikimedia.org/wikipedia/en/a/a7/Random_Access_Memories.jpg', 1, 1);
+VALUES ('Random Access Memories', 3, '2013-05-17', 'https://upload.wikimedia.org/wikipedia/en/a/a7/Random_Access_Memories.jpg', 1, 1);
 
 SELECT * FROM Album
 
 INSERT INTO InterpretePorAlbum (IdInterprete, IdAlbum)
-VALUES (1, 1);
+VALUES (1, 4);
+
+select * from Album
+
 -- REVISAR LOS ID's DE IDALBUM, IDPRODUCTORA E IDUSUARIODUEÑO OJOOOOO!!
 INSERT INTO Contenido (Titulo, IdTipoContenido, IdAlbum, IdGenero, IdProductora, FechaLanzamiento, Duracion, Portada, IDUsuarioDueño, FormatoArchivo, Descripcion, Activo)
 VALUES 
-('Give Life Back to Music', 1, 5, 1, 4, '2013-05-17', 272, 'cover1.jpg', 4, 'mp3', 'Track 1', 1),
-('The Game of Love', 1, 5, 1, 4, '2013-05-17', 330, 'cover2.jpg', 4, 'mp3', 'Track 2', 1),
-('Giorgio by Moroder', 1, 5, 1, 4, '2013-05-17', 546, 'cover3.jpg', 4, 'mp3', 'Track 3', 1),
-('Within', 1, 5, 1,4, '2013-05-17', 223, 'cover4.jpg', 4, 'mp3', 'Track 4', 1),
-('Instant Crush', 1, 5, 1, 4, '2013-05-17', 337, 'cover5.jpg', 4, 'mp3', 'Track 5', 1),
-('Lose Yourself to Dance', 1, 5, 1, 4, '2013-05-17', 335, 'cover6.jpg', 4, 'mp3', 'Track 6', 1),
-('Touch', 1, 5, 1, 4, '2013-05-17', 512, 'cover7.jpg', 4, 'mp3', 'Track 7', 1),
-('Get Lucky', 1, 5, 1, 4, '2013-05-17', 369, 'cover8.jpg', 4, 'mp3', 'Track 8', 1),
-('Beyond', 1, 5, 1, 4, '2013-05-17', 295, 'cover9.jpg', 4, 'mp3', 'Track 9', 1),
-('Motherboard', 1, 5, 1, 4, '2013-05-17', 309, 'cover10.jpg', 4, 'mp3', 'Track 10', 1);
+('Give Life Back to Music', 1, 4, 1, 3, '2013-05-17', 272, 'cover1.jpg', 1, 'mp3', 'Track 1', 1),
+('The Game of Love', 1, 4, 1, 3, '2013-05-17', 330, 'cover2.jpg', 1, 'mp3', 'Track 2', 1),
+('Giorgio by Moroder', 1, 4, 1, 3, '2013-05-17', 546, 'cover3.jpg', 1, 'mp3', 'Track 3', 1),
+('Within', 1, 4, 1, 3, '2013-05-17', 223, 'cover4.jpg', 1, 'mp3', 'Track 4', 1),
+('Instant Crush', 1, 4, 1, 3, '2013-05-17', 337, 'cover5.jpg', 1, 'mp3', 'Track 5', 1),
+('Lose Yourself to Dance', 1, 4, 1, 3, '2013-05-17', 335, 'cover6.jpg', 1, 'mp3', 'Track 6', 1),
+('Touch', 1, 4, 1, 3, '2013-05-17', 512, 'cover7.jpg', 1, 'mp3', 'Track 7', 1),
+('Get Lucky', 1, 4, 1, 3, '2013-05-17', 369, 'cover8.jpg', 1, 'mp3', 'Track 8', 1),
+('Beyond', 1, 4, 1, 3, '2013-05-17', 295, 'cover9.jpg', 1, 'mp3', 'Track 9', 1),
+('Motherboard', 1, 4, 1, 3, '2013-05-17', 309, 'cover10.jpg', 1, 'mp3', 'Track 10', 1);
 
 INSERT INTO ContenidoInterprete (IdContenido, IdInterprete)
 SELECT Id, 1 FROM Contenido;

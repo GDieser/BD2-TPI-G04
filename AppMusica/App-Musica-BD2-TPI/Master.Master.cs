@@ -26,7 +26,7 @@ namespace App_Musica_BD2_TPI
                     btnLogin.Visible = false;
                     btnPerfil.Enabled = true;
                 }
-
+                
             }
         }
 

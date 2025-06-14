@@ -23,8 +23,40 @@ namespace App_Musica_BD2_TPI
                     lblApellido.Text = usuario.Apellido;
                     lblEmail.Text = usuario.Email;
                     lblFechaNacimiento.Text = usuario.FechaNacimiento.Value.ToString("yyyy-MM-dd");
-                    lblIdioma.Text = usuario.IdIdioma.ToString();
-                    lblRol.Text = usuario.IdRol.ToString();
+
+
+                    if (usuario.IdIdioma == 1)
+                    {
+                        lblIdioma.Text = "Ingles";
+                    }
+                    else if(usuario.IdIdioma == 2)
+                    {
+                        lblIdioma.Text = "Español";
+                    }
+                    else
+                    {
+                        lblIdioma.Text = "Portugues";
+                    }
+
+                    if(usuario.IdRol == 1)
+                    {
+                        lblRol.Text = "Usuario";
+                    }
+                    else
+                    {
+                        lblRol.Text = "Administrador";
+                    }
+
+                    if(usuario.Membresia)
+                    {
+                        lblMembresia.Text = "Membresia Activa, Vencimiento: " + usuario.EstadoMembresia.FechaVencimiento.Value.ToString("yyyy-MM-dd");
+                        btnContratar.Enabled = false;
+                    }
+                    else
+                    {
+                        lblMembresia.Text = "Su membresia venció o no se encuentra activa";
+                    }
+
                     imgFotoPerfil.ImageUrl = usuario.FotoPerfil;
                 }
                 else
@@ -33,6 +65,11 @@ namespace App_Musica_BD2_TPI
                     Response.Redirect("Login.aspx");
                 }
             }
+        }
+
+        protected void btnContratar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ContratarMembresia.aspx");
         }
     }
 }
