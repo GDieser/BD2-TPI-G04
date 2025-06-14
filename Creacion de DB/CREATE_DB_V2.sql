@@ -401,9 +401,53 @@ BEGIN
 END;
 GO
 
---8
---Tamara Frias
---Espacio para la vista
+--8).
+/*   Tamara FrÍas
+    vista_comentariosRecientes: 
+        Muestra los comentarios hechos por lo usuarios,con el título(del contenido)
+        y la fecha, ordenados de forma DESC para que los comentarios más nuevos 
+        aparezcan primero.
+        */
+
+CREATE VIEW vista_comentariosRecientes AS
+SELECT 
+    c.Id AS IdComentario,
+    u.NombreUsuario,
+    ct.Titulo AS Contenido,
+    c.Comentario,
+    c.FechaComentario
+FROM Comentarios c
+JOIN Usuario u ON c.IdUsuario = u.Id
+JOIN Contenido ct ON c.IdContenido = ct.Id
+ORDER BY c.FechaComentario DESC;
+GO
+
+
+/*    trg_limitarPuntuacion: 
+        Este trigger evita que un usuario vuelva a calificar un contenido,
+        para evitar duplicados y así no afectar al sistema de puntajes.
+        */
+
+CREATE TRIGGER trg_limitarPuntuacion
+ON Calificaciones
+INSTEAD OF INSERT
+AS
+BEGIN
+    IF EXISTS(
+        SELECT 1
+        FROM Calificaciones c
+        JOIN inserted i ON c.IdUsuario =i.IdUsuario AND c.IdContenido = i.IdContenido
+    )
+    BEGIN
+    PRINT "Ya existe una calificación para este contenido."
+    RETURN;
+    END
+
+    INSERT INTO Calificaciones(IdUsuario, IdContenido, Puntuacion, Fecha)
+    SELECT IdUsuario,IdContenido,Puntucion,Fecha
+    FROM inserted;
+END;
+GO    
 
 
 
