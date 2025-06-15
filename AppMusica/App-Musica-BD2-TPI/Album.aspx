@@ -10,13 +10,13 @@
                 <h3 class="text-center mb-4">Nuevo Álbum</h3>
                 <asp:Panel ID="pnlForm" runat="server" CssClass="border p-4 rounded">
 
-                    <!-- Título -->
+                    
                     <div class="form-group">
                         <asp:Label ID="lblTitulo" runat="server" Text="Título:" CssClass="control-label" />
                         <asp:TextBox ID="txtTitulo" runat="server" CssClass="form-control" MaxLength="100" />
                     </div>
 
-                    <!-- Productora -->
+                   
                     <div class="form-group">
                         <asp:Label ID="lblProductora" runat="server" Text="Productora:" CssClass="control-label" />
                         <div class="input-group">
@@ -26,19 +26,18 @@
                             </div>
                         </div>
 
-                        <!-- Fecha de Lanzamiento -->
+                       
                         <div class="form-group">
                             <asp:Label ID="lblFecha" runat="server" Text="Fecha de Lanzamiento:" CssClass="control-label" />
                             <asp:TextBox ID="txtFecha" runat="server" CssClass="form-control" TextMode="Date" />
                         </div>
 
-                        <!-- Portada -->
+                      
                         <div class="form-group">
                             <asp:Label ID="lblPortada" runat="server" Text="Portada (URL):" CssClass="control-label" />
                             <asp:TextBox ID="txtPortada" runat="server" CssClass="form-control" MaxLength="255" />
                         </div>
 
-                        <!-- Género -->
                         <div class="form-group">
                             <asp:Label ID="lblGenero" runat="server" Text="Género:" CssClass="control-label" />
                             <div class="input-group">
@@ -49,7 +48,7 @@
                             </div>
                         </div>
 
-                        <!-- Tipo de Contenido -->
+                      
                         <div class="form-group">
                             <asp:Label ID="lblTipoContenido" runat="server" Text="Tipo de Contenido:" CssClass="control-label" />
                             <div class="input-group">
@@ -60,12 +59,11 @@
                             </div>
                         </div>
 
-                        <!-- Botón Guardar -->
+                       
                         <div class="form-group text-center mt-4">
                             <asp:Button ID="btnGuardar" runat="server" Text="Guardar Álbum" CssClass="btn btn-primary" OnClick="btnGuardar_Click" />
                         </div>
 
-                        <!-- Mensaje -->
                         <div class="form-group text-center">
                             <asp:Label ID="lblMensaje" runat="server" Text="" CssClass="" EnableViewState="false" />
                         </div>

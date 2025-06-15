@@ -78,19 +78,40 @@ namespace App_Musica_BD2_TPI
             DateTime fechaInicio = DateTime.Now;
             DateTime fechaFin = fechaInicio.AddDays(30);
 
-            List<SqlParameter> parametros = new List<SqlParameter>()
-            {
-                new SqlParameter("@IdUsuario", usuario.Id),
-                new SqlParameter("@IdTipoMembresia", idMembresia),
-                new SqlParameter("@FechaInicio", fechaInicio),
-                new SqlParameter("@FechaVencimiento", fechaFin),
-                new SqlParameter("@Activo", true)
-            };
+            string queryInsert;
+            List<SqlParameter> parametros;
 
-            string queryInsert = @"
+            if (usuario.EstadoMembresia.IdUsuario != null)
+            {
+                parametros = new List<SqlParameter>()
+                {
+                    new SqlParameter("@IdUsuario", usuario.Id),
+                    new SqlParameter("@IdTipoMembresia", idMembresia),
+                    new SqlParameter("@FechaInicio", fechaInicio),
+                    new SqlParameter("@FechaVencimiento", fechaFin),
+                    new SqlParameter("@Activo", true)
+                };
+
+                queryInsert = @"
+                UPDATE UsuarioMembresia SET IdTipoMembresia = @IdTipoMembresia, FechaInicio = @FechaInicio, FechaVencimiento = @FechaVencimiento, Activa = @Activo WHERE IdUsuario = @IdUsuario;
+               ";
+            }
+            else
+            {
+                parametros = new List<SqlParameter>()
+                {
+                    new SqlParameter("@IdUsuario", usuario.Id),
+                    new SqlParameter("@IdTipoMembresia", idMembresia),
+                    new SqlParameter("@FechaInicio", fechaInicio),
+                    new SqlParameter("@FechaVencimiento", fechaFin),
+                    new SqlParameter("@Activo", true)
+                };
+
+                queryInsert = @"
                 INSERT INTO UsuarioMembresia (IdUsuario, IdTipoMembresia, FechaInicio, FechaVencimiento, Activa)
                 VALUES (@IdUsuario, @IdTipoMembresia, @FechaInicio, @FechaVencimiento, @Activo)
                ";
+            }
 
             datos.EjecutarConsulta(queryInsert, parametros);
 

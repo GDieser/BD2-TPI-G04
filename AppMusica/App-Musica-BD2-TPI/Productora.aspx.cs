@@ -29,7 +29,7 @@ namespace App_Musica_BD2_TPI
             }
             else
             {
-                // Mock por si no hay sesión activa
+                
                 hfIDUsuarioDuenio.Value = "4";
             }
         }

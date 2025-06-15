@@ -11,26 +11,8 @@ namespace App_Musica_BD2_TPI
 {
 
 
-    public partial class Playlist
+    public partial class AgregarContenidoPlaylist
     {
-
-        /// <summary>
-        /// btnAgregar control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAgregar;
-
-        /// <summary>
-        /// btnEliminar control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEliminar;
 
         /// <summary>
         /// gvCanciones control.
@@ -42,12 +24,12 @@ namespace App_Musica_BD2_TPI
         protected global::System.Web.UI.WebControls.GridView gvCanciones;
 
         /// <summary>
-        /// btnDuracion control.
+        /// lblMensaje control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnDuracion;
+        protected global::System.Web.UI.WebControls.Label lblMensaje;
     }
 }

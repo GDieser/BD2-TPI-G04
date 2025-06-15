@@ -67,14 +67,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AgregarContenidoPlaylist.aspx" />
     <Content Include="Album.aspx" />
     <Content Include="Artista.aspx" />
     <Content Include="Contenido.aspx" />
     <Content Include="ContratarMembresia.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="FormularioPlaylist.aspx" />
     <Content Include="Genero.aspx" />
     <Content Include="Interprete.aspx" />
+    <Content Include="ListaPlaylist.aspx" />
+    <Content Include="ListaUsuarioMembresia.aspx" />
+    <Content Include="ListaUsuarios.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="MisPlaylist.aspx" />
     <Content Include="PerfiUsuario.aspx" />
     <Content Include="Playlist.aspx" />
     <Content Include="Productora.aspx" />
@@ -84,6 +90,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgregarContenidoPlaylist.aspx.cs">
+      <DependentUpon>AgregarContenidoPlaylist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgregarContenidoPlaylist.aspx.designer.cs">
+      <DependentUpon>AgregarContenidoPlaylist.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Album.aspx.cs">
       <DependentUpon>Album.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -119,6 +132,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FormularioPlaylist.aspx.cs">
+      <DependentUpon>FormularioPlaylist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormularioPlaylist.aspx.designer.cs">
+      <DependentUpon>FormularioPlaylist.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Genero.aspx.cs">
       <DependentUpon>Genero.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -133,6 +153,27 @@
     <Compile Include="Interprete.aspx.designer.cs">
       <DependentUpon>Interprete.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ListaPlaylist.aspx.cs">
+      <DependentUpon>ListaPlaylist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListaPlaylist.aspx.designer.cs">
+      <DependentUpon>ListaPlaylist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListaUsuarioMembresia.aspx.cs">
+      <DependentUpon>ListaUsuarioMembresia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListaUsuarioMembresia.aspx.designer.cs">
+      <DependentUpon>ListaUsuarioMembresia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListaUsuarios.aspx.cs">
+      <DependentUpon>ListaUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListaUsuarios.aspx.designer.cs">
+      <DependentUpon>ListaUsuarios.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -146,6 +187,13 @@
     </Compile>
     <Compile Include="Master.Master.designer.cs">
       <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MisPlaylist.aspx.cs">
+      <DependentUpon>MisPlaylist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MisPlaylist.aspx.designer.cs">
+      <DependentUpon>MisPlaylist.aspx</DependentUpon>
     </Compile>
     <Compile Include="PerfiUsuario.aspx.cs">
       <DependentUpon>PerfiUsuario.aspx</DependentUpon>

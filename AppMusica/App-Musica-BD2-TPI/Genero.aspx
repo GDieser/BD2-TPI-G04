@@ -10,24 +10,24 @@
                 <h3 class="text-center mb-4">Nuevo Genero</h3>
                 <asp:Panel ID="pnlForm" runat="server" CssClass="border p-4 rounded">
 
-                    <!-- Nombre -->
+                    
                     <div class="form-group">
                         <asp:Label ID="lblTitulo" runat="server" Text="Nombre:" CssClass="control-label" />
                         <asp:TextBox ID="txtNombre" runat="server" CssClass="form-control" MaxLength="100" />
                     </div>
 
-                    <!-- Descripcion -->
+                   
                     <div class="form-group">
                         <asp:Label ID="Label1" runat="server" Text="Descripcion:" CssClass="control-label" />
                         <asp:TextBox ID="txtDescripcion" runat="server" CssClass="form-control" MaxLength="100" />
                     </div>
 
-                    <!-- Botón Guardar -->
+                   
                     <div class="form-group text-center mt-4">
                         <asp:Button ID="btnGuardar" runat="server" Text="Guardar Álbum" CssClass="btn btn-primary" OnClick="btnGuardar_Click" />
                     </div>
 
-                    <!-- Mensaje -->
+                    
                     <div class="form-group text-center">
                         <asp:Label ID="lblMensaje" runat="server" Text="" CssClass="" EnableViewState="false" />
                     </div>

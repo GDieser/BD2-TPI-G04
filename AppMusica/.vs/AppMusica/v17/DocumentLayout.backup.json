@@ -3,108 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\agregarcontenidoplaylist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\agregarcontenidoplaylist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\perfiusuario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\perfiusuario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\perfiusuario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\perfiusuario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\contratarmembresia.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\contratarmembresia.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\contratarmembresia.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\contratarmembresia.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BF0CAD3-4212-44B8-A60D-3506ED512D35}|Dominio\\Dominio.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\dominio\\membresia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BF0CAD3-4212-44B8-A60D-3506ED512D35}|Dominio\\Dominio.csproj|solutionrelative:dominio\\membresia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\master.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\master.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BF0CAD3-4212-44B8-A60D-3506ED512D35}|Dominio\\Dominio.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\dominio\\usuariomembresia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BF0CAD3-4212-44B8-A60D-3506ED512D35}|Dominio\\Dominio.csproj|solutionrelative:dominio\\usuariomembresia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BF0CAD3-4212-44B8-A60D-3506ED512D35}|Dominio\\Dominio.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BF0CAD3-4212-44B8-A60D-3506ED512D35}|Dominio\\Dominio.csproj|solutionrelative:dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\vercontenido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\vercontenido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\registrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\registrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\contenido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\contenido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\playlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\playlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\tipocontenido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\tipocontenido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\registrar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\registrar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\agregarcontenidoplaylist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\agregarcontenidoplaylist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\album.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\album.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\artista.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\artista.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\productora.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\productora.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\album.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\album.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\artista.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\artista.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\contenido.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\artista.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\artista.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\contenido.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\contenido.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\contenido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\contenido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\contratarmembresia.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\contratarmembresia.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\contratarmembresia.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\contratarmembresia.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\formularioplaylist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\formularioplaylist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\formularioplaylist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\formularioplaylist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\genero.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\genero.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\interprete.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\interprete.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\genero.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|c:\\users\\germa\\onedrive\\desktop\\bd2 tpi\\bd2-tpi-g04\\appmusica\\app-musica-bd2-tpi\\genero.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\genero.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\interprete.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\interprete.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\app-musica-bd2-tpi\\album.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDA598D9-B3C7-41E7-A814-2C8F3F0A220E}|App-Musica-BD2-TPI\\App-Musica-BD2-TPI.csproj|solutionrelative:app-musica-bd2-tpi\\album.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,50 +74,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Membresia.cs",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\Dominio\\Membresia.cs",
-              "RelativeDocumentMoniker": "Dominio\\Membresia.cs",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\Dominio\\Membresia.cs",
-              "RelativeToolTip": "Dominio\\Membresia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AgregarContenidoPlaylist.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\AgregarContenidoPlaylist.aspx.cs",
+              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\AgregarContenidoPlaylist.aspx.cs",
+              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\AgregarContenidoPlaylist.aspx.cs",
+              "RelativeToolTip": "App-Musica-BD2-TPI\\AgregarContenidoPlaylist.aspx.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T16:12:16.49Z",
+              "WhenOpened": "2025-06-15T02:31:49.439Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UsuarioMembresia.cs",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\Dominio\\UsuarioMembresia.cs",
-              "RelativeDocumentMoniker": "Dominio\\UsuarioMembresia.cs",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\Dominio\\UsuarioMembresia.cs",
-              "RelativeToolTip": "Dominio\\UsuarioMembresia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T15:53:59.461Z",
+              "DocumentIndex": 1,
+              "Title": "AgregarContenidoPlaylist.aspx",
+              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\AgregarContenidoPlaylist.aspx",
+              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\AgregarContenidoPlaylist.aspx",
+              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\AgregarContenidoPlaylist.aspx",
+              "RelativeToolTip": "App-Musica-BD2-TPI\\AgregarContenidoPlaylist.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-15T02:31:46.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Album.aspx",
+              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Album.aspx",
+              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Album.aspx",
+              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Album.aspx",
+              "RelativeToolTip": "App-Musica-BD2-TPI\\Album.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-15T02:31:17.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contenido.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Contenido.aspx.cs",
+              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Contenido.aspx.cs",
+              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Contenido.aspx.cs",
+              "RelativeToolTip": "App-Musica-BD2-TPI\\Contenido.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T02:31:08.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Contenido.aspx",
+              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Contenido.aspx",
+              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Contenido.aspx",
+              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Contenido.aspx",
+              "RelativeToolTip": "App-Musica-BD2-TPI\\Contenido.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-15T02:31:03.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ContratarMembresia.aspx.cs",
               "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\ContratarMembresia.aspx.cs",
               "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\ContratarMembresia.aspx.cs",
               "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\ContratarMembresia.aspx.cs",
               "RelativeToolTip": "App-Musica-BD2-TPI\\ContratarMembresia.aspx.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAswHAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T15:56:35.669Z",
+              "WhenOpened": "2025-06-15T02:30:46.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Default.aspx.cs",
+              "RelativeToolTip": "App-Musica-BD2-TPI\\Default.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T02:30:42.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Default.aspx",
+              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Default.aspx",
+              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Default.aspx",
+              "RelativeToolTip": "App-Musica-BD2-TPI\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-15T02:30:39.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormularioPlaylist.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\FormularioPlaylist.aspx.cs",
+              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\FormularioPlaylist.aspx.cs",
+              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\FormularioPlaylist.aspx.cs",
+              "RelativeToolTip": "App-Musica-BD2-TPI\\FormularioPlaylist.aspx.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T02:30:37.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ContratarMembresia.aspx",
               "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\ContratarMembresia.aspx",
               "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\ContratarMembresia.aspx",
@@ -170,163 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "VerContenido.aspx",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\VerContenido.aspx",
-              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\VerContenido.aspx",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\VerContenido.aspx",
-              "RelativeToolTip": "App-Musica-BD2-TPI\\VerContenido.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-14T13:56:18.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PerfiUsuario.aspx",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\PerfiUsuario.aspx",
-              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\PerfiUsuario.aspx",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\PerfiUsuario.aspx",
-              "RelativeToolTip": "App-Musica-BD2-TPI\\PerfiUsuario.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-14T03:47:59.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PerfiUsuario.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\PerfiUsuario.aspx.cs",
-              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\PerfiUsuario.aspx.cs",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\PerfiUsuario.aspx.cs",
-              "RelativeToolTip": "App-Musica-BD2-TPI\\PerfiUsuario.aspx.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwDQAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T03:53:51.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Master.Master.cs",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Master.Master.cs",
-              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Master.Master.cs",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Master.Master.cs",
-              "RelativeToolTip": "App-Musica-BD2-TPI\\Master.Master.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAkwBwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T03:40:46.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Login.aspx.cs",
-              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Login.aspx.cs",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Login.aspx.cs",
-              "RelativeToolTip": "App-Musica-BD2-TPI\\Login.aspx.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAD4v1gAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T02:40:42.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Login.aspx",
-              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Login.aspx",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Login.aspx",
-              "RelativeToolTip": "App-Musica-BD2-TPI\\Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-14T02:22:09.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\Dominio\\Usuario.cs",
-              "RelativeDocumentMoniker": "Dominio\\Usuario.cs",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\Dominio\\Usuario.cs",
-              "RelativeToolTip": "Dominio\\Usuario.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T14:03:17.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Playlist.aspx",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Playlist.aspx",
-              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Playlist.aspx",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Playlist.aspx",
-              "RelativeToolTip": "App-Musica-BD2-TPI\\Playlist.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-14T13:56:49.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Contenido.aspx",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Contenido.aspx",
-              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Contenido.aspx",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Contenido.aspx",
-              "RelativeToolTip": "App-Musica-BD2-TPI\\Contenido.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-12T22:28:43.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Registrar.aspx",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Registrar.aspx",
-              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Registrar.aspx",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Registrar.aspx",
-              "RelativeToolTip": "App-Musica-BD2-TPI\\Registrar.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-14T02:28:44.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "TipoContenido.aspx",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\TipoContenido.aspx",
-              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\TipoContenido.aspx",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\TipoContenido.aspx",
-              "RelativeToolTip": "App-Musica-BD2-TPI\\TipoContenido.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-13T02:32:41.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Registrar.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Registrar.aspx.cs",
-              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Registrar.aspx.cs",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Registrar.aspx.cs",
-              "RelativeToolTip": "App-Musica-BD2-TPI\\Registrar.aspx.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowD0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T04:07:28.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 5,
               "Title": "Artista.aspx",
               "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Artista.aspx",
               "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Artista.aspx",
@@ -334,83 +216,51 @@
               "RelativeToolTip": "App-Musica-BD2-TPI\\Artista.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-13T00:32:33.384Z"
+              "WhenOpened": "2025-06-13T00:32:33.384Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 2,
               "Title": "Album.aspx.cs",
               "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Album.aspx.cs",
               "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Album.aspx.cs",
               "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Album.aspx.cs",
               "RelativeToolTip": "App-Musica-BD2-TPI\\Album.aspx.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowDgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAcwDgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T01:51:52.133Z"
+              "WhenOpened": "2025-06-13T01:51:52.133Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Productora.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Productora.aspx.cs",
-              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Productora.aspx.cs",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Productora.aspx.cs",
-              "RelativeToolTip": "App-Musica-BD2-TPI\\Productora.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T02:23:17.686Z"
+              "DocumentIndex": 13,
+              "Title": "FormularioPlaylist.aspx",
+              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\FormularioPlaylist.aspx",
+              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\FormularioPlaylist.aspx",
+              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\FormularioPlaylist.aspx",
+              "RelativeToolTip": "App-Musica-BD2-TPI\\FormularioPlaylist.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-15T02:30:35.158Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 4,
               "Title": "Artista.aspx.cs",
               "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Artista.aspx.cs",
               "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Artista.aspx.cs",
               "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Artista.aspx.cs",
               "RelativeToolTip": "App-Musica-BD2-TPI\\Artista.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T00:33:13.311Z"
+              "WhenOpened": "2025-06-13T00:33:13.311Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Interprete.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Interprete.aspx.cs",
-              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Interprete.aspx.cs",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Interprete.aspx.cs",
-              "RelativeToolTip": "App-Musica-BD2-TPI\\Interprete.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T00:08:14.938Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Contenido.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Contenido.aspx.cs",
-              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Contenido.aspx.cs",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Contenido.aspx.cs",
-              "RelativeToolTip": "App-Musica-BD2-TPI\\Contenido.aspx.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAYwEgAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T22:33:38.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Genero.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Genero.aspx.cs",
-              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Genero.aspx.cs",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Genero.aspx.cs",
-              "RelativeToolTip": "App-Musica-BD2-TPI\\Genero.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T02:14:05.831Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 15,
               "Title": "Genero.aspx",
               "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Genero.aspx",
               "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Genero.aspx",
@@ -418,31 +268,20 @@
               "RelativeToolTip": "App-Musica-BD2-TPI\\Genero.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-13T01:51:08.057Z"
+              "WhenOpened": "2025-06-15T02:30:19.298Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Interprete.aspx",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Interprete.aspx",
-              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Interprete.aspx",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Interprete.aspx",
-              "RelativeToolTip": "App-Musica-BD2-TPI\\Interprete.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-12T22:25:36.094Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Album.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Album.aspx.designer.cs",
-              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Album.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Album.aspx.designer.cs",
-              "RelativeToolTip": "App-Musica-BD2-TPI\\Album.aspx.designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "Genero.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Genero.aspx.cs",
+              "RelativeDocumentMoniker": "App-Musica-BD2-TPI\\Genero.aspx.cs",
+              "ToolTip": "C:\\Users\\germa\\OneDrive\\Desktop\\BD2 TPI\\BD2-TPI-G04\\AppMusica\\App-Musica-BD2-TPI\\Genero.aspx.cs",
+              "RelativeToolTip": "App-Musica-BD2-TPI\\Genero.aspx.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T02:00:04.906Z",
+              "WhenOpened": "2025-06-13T02:14:05.831Z",
               "EditorCaption": ""
             }
           ]

@@ -159,6 +159,77 @@ namespace Servicio
             }
         }
 
+        public string EjecutarSPConMensaje(string nombreSP, List<SqlParameter> parametros = null)
+        {
+            try
+            {
+                if (conexion.State != ConnectionState.Open)
+                    conexion.Open();
+
+                using (SqlCommand comando = new SqlCommand(nombreSP, conexion))
+                {
+                    comando.CommandType = CommandType.StoredProcedure;
+
+                    if (parametros != null)
+                    {
+                        comando.Parameters.AddRange(parametros.ToArray());
+                    }
+
+                    
+                    string mensajeSalida = "";
+
+                    
+                    conexion.InfoMessage += (sender, e) =>
+                    {
+                        foreach (SqlError info in e.Errors)
+                        {
+                            mensajeSalida += info.Message + "\n";
+                        }
+                    };
+
+                    comando.ExecuteNonQuery();
+
+                    return mensajeSalida.Trim();
+                }
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception($"Error al ejecutar el stored procedure '{nombreSP}': {ex.Message}", ex);
+            }
+            finally
+            {
+                if (conexion.State == ConnectionState.Open)
+                    conexion.Close();
+            }
+        }
+
+        public object EjecutarConsultaEscalar(string query, List<SqlParameter> parametros = null)
+        {
+            try
+            {
+                if (conexion.State != ConnectionState.Open)
+                    conexion.Open();
+
+                using (SqlCommand comando = new SqlCommand(query, conexion))
+                {
+                    if (parametros != null)
+                    {
+                        comando.Parameters.AddRange(parametros.ToArray());
+                    }
+                    return comando.ExecuteScalar();
+                }
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception("Error en la consulta SQL: " + ex.Message, ex);
+            }
+            finally
+            {
+                if (conexion.State == ConnectionState.Open)
+                    conexion.Close();
+            }
+        }
+
     }
 }
 
