@@ -27,7 +27,7 @@ namespace App_Musica_BD2_TPI
             int idIdioma = 1;
             switch (ddlIdioma.SelectedValue)
             {
-                case "en": idIdioma = 2; break;
+                case "es": idIdioma = 2; break;
                 case "pt": idIdioma = 3; break;
             }
 

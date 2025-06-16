@@ -59,8 +59,9 @@
                             <div class="mb-3">
                                 <asp:Label runat="server" AssociatedControlID="ddlIdioma" Text="Idioma" />
                                 <asp:DropDownList runat="server" ID="ddlIdioma" CssClass="form-select">
-                                    <asp:ListItem Text="Español" Value="es" />
+
                                     <asp:ListItem Text="Inglés" Value="en" />
+                                    <asp:ListItem Text="Español" Value="es" />
                                     <asp:ListItem Text="Portugués" Value="pt" />
                                 </asp:DropDownList>
                             </div>

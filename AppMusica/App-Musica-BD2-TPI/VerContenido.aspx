@@ -28,6 +28,7 @@
                     <asp:BoundField DataField="NombreGenero" HeaderText="Género" />
                     <asp:BoundField DataField="DuracionSegundos" HeaderText="Duración" />
                     <asp:BoundField DataField="Reproducciones" HeaderText="Reproducciones" />
+                    <asp:BoundField DataField="ContadorView" HeaderText="ContadorView" />
 
                     <asp:TemplateField HeaderText="Acción">
                         <ItemTemplate>

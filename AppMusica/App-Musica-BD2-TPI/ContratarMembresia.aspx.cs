@@ -81,7 +81,7 @@ namespace App_Musica_BD2_TPI
             string queryInsert;
             List<SqlParameter> parametros;
 
-            if (usuario.EstadoMembresia.IdUsuario != null)
+            if (usuario.EstadoMembresia != null)
             {
                 parametros = new List<SqlParameter>()
                 {

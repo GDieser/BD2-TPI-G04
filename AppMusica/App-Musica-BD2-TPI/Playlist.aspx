@@ -16,6 +16,7 @@
             <asp:Button ID="btnEliminar" runat="server" CssClass="btn btn-danger " Text="✖ Eliminar Playlist" OnClick="btnEliminar_Click" />
             <% } %>
         </div>
+        <br />
         <div class="d-flex align-items-center justify-content-center">
             <asp:GridView ID="gvCanciones" runat="server" AutoGenerateColumns="False" CssClass="table table-striped table-hover table-bordered align-middle text-center" OnRowCommand="gvCanciones_RowCommand">
                 <Columns>
