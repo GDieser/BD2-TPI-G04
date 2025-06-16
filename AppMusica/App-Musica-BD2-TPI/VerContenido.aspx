@@ -42,8 +42,9 @@
                 </Columns>
             </asp:GridView>
         </div>
+        <a href="ListaTopCanciones.aspx" class="btn btn-primary">Ver Top Contenido mas Escuchado!</a>
     </div>
-    
+
 
 
 </asp:Content>

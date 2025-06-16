@@ -2,7 +2,7 @@ USE BD2_TPI_G04
 GO
 
 --Darian Hiebl
---3)
+--3) v1 
 --vista_topNCanciones: Vista que muestra las canciones mas reproducidas en forma descendente
 CREATE VIEW vista_topNCanciones AS
 SELECT
@@ -21,6 +21,25 @@ GROUP BY
     c.id, c.titulo, c.FechaLanzamiento, c.duracion, c.descripcion, g.Nombre
 ORDER BY 
     TotalReproducciones DESC;
+GO
+
+--German D
+--3) v2
+--vista_topNCanciones: Vista que muestra las canciones mas reproducidas en forma descendente
+CREATE VIEW vista_topCanciones AS
+SELECT TOP 100
+    c.Id AS id_cancion,
+    c.Titulo,
+    c.FechaLanzamiento,
+    c.Duracion,
+    c.Descripcion,
+    g.Nombre AS Genero,
+    c.ContadorReproducciones AS TotalReproducciones
+FROM Contenido c
+INNER JOIN GeneroMusical g ON g.Id = c.IdGenero
+WHERE c.Activo = 1
+ORDER BY 
+    c.ContadorReproducciones DESC;
 GO
 
 

@@ -57,7 +57,7 @@ namespace App_Musica_BD2_TPI
             if (e.CommandName == "Reproducir")
             {
                 long idContenido = Convert.ToInt64(e.CommandArgument);
-                ContadorDeReproduccion(idContenido);
+                //ContadorDeReproduccion(idContenido); /// Acá usamos el trigger de Jacob ahora, chetardo
                 SimularReproduccion(idContenido);
             }
         }

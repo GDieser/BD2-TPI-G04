@@ -20,11 +20,11 @@ namespace App_Musica_BD2_TPI
             usuario = (Usuario)Session["Usuario"];
             if (!IsPostBack)
             {
-                CargarPlaylistsPublicas();
+                CargarMisPlaylist();
             }
         }
 
-        private void CargarPlaylistsPublicas()
+        private void CargarMisPlaylist()
         {
             string query = @"
             SELECT 

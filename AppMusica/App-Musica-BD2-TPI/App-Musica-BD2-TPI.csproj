@@ -77,6 +77,7 @@
     <Content Include="Genero.aspx" />
     <Content Include="Interprete.aspx" />
     <Content Include="ListaPlaylist.aspx" />
+    <Content Include="ListaTopCanciones.aspx" />
     <Content Include="ListaUsuarioMembresia.aspx" />
     <Content Include="ListaUsuarios.aspx" />
     <Content Include="Login.aspx" />
@@ -159,6 +160,13 @@
     </Compile>
     <Compile Include="ListaPlaylist.aspx.designer.cs">
       <DependentUpon>ListaPlaylist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListaTopCanciones.aspx.cs">
+      <DependentUpon>ListaTopCanciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListaTopCanciones.aspx.designer.cs">
+      <DependentUpon>ListaTopCanciones.aspx</DependentUpon>
     </Compile>
     <Compile Include="ListaUsuarioMembresia.aspx.cs">
       <DependentUpon>ListaUsuarioMembresia.aspx</DependentUpon>
