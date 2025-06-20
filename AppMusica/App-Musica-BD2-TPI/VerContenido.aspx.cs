@@ -139,6 +139,15 @@ namespace App_Musica_BD2_TPI
             datos.EjecutarConsulta(insertQuery, param);
 
         }
+
+        protected void gvCanciones_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            long idContenido = (long)gvCanciones.SelectedDataKey.Value;
+
+            Response.Redirect("DetalleContenido.aspx?id="+idContenido);
+
+
+        }
     }
 
 }

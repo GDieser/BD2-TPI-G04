@@ -13,8 +13,18 @@ namespace App_Musica_BD2_TPI
     public partial class ListaUsuarios : System.Web.UI.Page
     {
         AccesoDatos datos = new AccesoDatos();
+        protected Usuario usuario;
         protected void Page_Load(object sender, EventArgs e)
         {
+
+            usuario = (Usuario)Session["Usuario"];
+
+            if (usuario == null || !usuario.Membresia)
+            {
+                Session.Add("error", "Acceso no permitido");
+                Response.Redirect("Error.aspx");
+            }
+
             if (!IsPostBack)
             {
                 CargarUsuariosAdmin();

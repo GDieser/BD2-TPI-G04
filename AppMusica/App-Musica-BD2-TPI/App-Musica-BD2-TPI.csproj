@@ -73,6 +73,8 @@
     <Content Include="Contenido.aspx" />
     <Content Include="ContratarMembresia.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="DetalleContenido.aspx" />
+    <Content Include="Error.aspx" />
     <Content Include="FormularioPlaylist.aspx" />
     <Content Include="Genero.aspx" />
     <Content Include="Interprete.aspx" />
@@ -132,6 +134,20 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleContenido.aspx.cs">
+      <DependentUpon>DetalleContenido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DetalleContenido.aspx.designer.cs">
+      <DependentUpon>DetalleContenido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
     </Compile>
     <Compile Include="FormularioPlaylist.aspx.cs">
       <DependentUpon>FormularioPlaylist.aspx</DependentUpon>

@@ -18,7 +18,7 @@
             <% } %>
         </div>
         <div class="d-flex align-items-center justify-content-center">
-            <asp:GridView ID="gvCanciones" runat="server" AutoGenerateColumns="False" CssClass="table table-striped table-hover table-bordered align-middle text-center" OnRowCommand="gvCanciones_RowCommand" GridLines="None">
+            <asp:GridView ID="gvCanciones" runat="server" DataKeyNames="IdContenido" AutoGenerateColumns="False" CssClass="table table-striped table-hover table-bordered align-middle text-center" OnSelectedIndexChanged="gvCanciones_SelectedIndexChanged" OnRowCommand="gvCanciones_RowCommand" GridLines="None">
 
                 <Columns>
                     <asp:BoundField DataField="IdContenido" HeaderText="ID" />
@@ -38,6 +38,8 @@
                             <% } %>
                         </ItemTemplate>
                     </asp:TemplateField>
+
+                    <asp:CommandField HeaderText="Ver" ShowSelectButton="true" SelectText="🎵" />
 
                 </Columns>
             </asp:GridView>

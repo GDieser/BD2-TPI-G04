@@ -79,4 +79,22 @@ FROM Comentarios c
 JOIN Usuario u ON c.IdUsuario = u.Id
 JOIN Contenido ct ON c.IdContenido = ct.Id
 ORDER BY c.FechaComentario DESC;
+--No se puede ejecutar el ORDER BY en la vista directamente, alternativ:
+
+--Alternativa 
+CREATE VIEW vista_comentariosRecientes AS
+SELECT 
+    c.Id AS IdComentario,
+    c.IdContenido,  -- Agregar para ver por contenido, si no, trae todos los registros --
+    u.NombreUsuario,
+    ct.Titulo AS Contenido,
+    c.Comentario,
+    c.FechaComentario
+FROM Comentarios c
+JOIN Usuario u ON c.IdUsuario = u.Id
+JOIN Contenido ct ON c.IdContenido = ct.Id;
+
+SELECT * FROM vista_comentariosRecientes
+ORDER BY FechaComentario DESC;
+
 GO

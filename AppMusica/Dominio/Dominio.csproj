@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comentario.cs" />
     <Compile Include="Contenido.cs" />
     <Compile Include="Membresia.cs" />
     <Compile Include="Playlist.cs" />
