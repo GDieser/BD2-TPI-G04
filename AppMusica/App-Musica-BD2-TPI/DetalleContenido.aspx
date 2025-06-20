@@ -30,14 +30,14 @@
             <asp:Label ID="lblCalificar" runat="server" CssClass="h5 text-dark d-block mb-2" Text="Calificar este contenido"></asp:Label>
             <div class="d-flex align-items-center gap-3">
                 <asp:DropDownList ID="ddlPuntuacion" runat="server" CssClass="form-select w-auto">
-                    <asp:ListItem Value="0">Seleccione una puntuación</asp:ListItem>
+                    
                     <asp:ListItem Value="1">1 - Muy malo</asp:ListItem>
                     <asp:ListItem Value="2">2 - Malo</asp:ListItem>
                     <asp:ListItem Value="3">3 - Regular</asp:ListItem>
                     <asp:ListItem Value="4">4 - Bueno</asp:ListItem>
                     <asp:ListItem Value="5">5 - Excelente</asp:ListItem>
                 </asp:DropDownList>
-                <asp:Button ID="btnEnviarCalificacion" runat="server" Text="Enviar Calificación" CssClass="btn btn-info" />
+                <asp:Button ID="btnEnviarCalificacion" runat="server" OnClick="btnEnviarCalificacion_Click" Text="Enviar Calificación" CssClass="btn btn-info" />
             </div>
         </div>
 

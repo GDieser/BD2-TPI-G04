@@ -164,5 +164,42 @@ namespace App_Musica_BD2_TPI
             }
 
         }
+
+        protected void btnEnviarCalificacion_Click(object sender, EventArgs e)
+        {
+            
+            long idUsuario = usuario.Id;
+            long idContenido = Convert.ToInt64(Request.QueryString["id"]);
+            int puntuacion = ddlPuntuacion.SelectedIndex;
+
+
+            List<SqlParameter> parametros = new List<SqlParameter>
+            {
+                 new SqlParameter("@idUsuario", idUsuario),
+                 new SqlParameter("@idContenido", idContenido),
+                 new SqlParameter("@puntuacion", puntuacion)
+            };
+
+            string existeQuery = @"
+                        SELECT COUNT(*) 
+                        FROM Calificaciones 
+                        WHERE IdUsuario = @idUsuario AND IdContenido = @idContenido";
+
+            int existe = Convert.ToInt32(datos.ObtenerValor(existeQuery, parametros));
+            //Es a modo de ejemplo, no supe como traer el comentario de trigger :C
+            if (existe > 0)
+            {
+                ScriptManager.RegisterStartupScript(this, GetType(), "alert", "alert('Ya existe una calificación para este contenido.');", true);
+            }
+            else
+            {
+                string insertQuery = @"
+                    INSERT INTO Calificaciones(IdUsuario, IdContenido, Puntuacion, Fecha) 
+                    VALUES (@idUsuario, @idContenido, @puntuacion, GETDATE())";
+
+                datos.EjecutarConsulta(insertQuery, parametros);
+                Response.Redirect(Request.RawUrl);
+            }
+        }
     }
 }

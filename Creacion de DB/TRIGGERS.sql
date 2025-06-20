@@ -65,10 +65,10 @@ BEGIN
     IF EXISTS(
         SELECT 1
         FROM Calificaciones c
-        JOIN inserted i ON c.IdUsuario =i.IdUsuario AND c.IdContenido = i.IdContenido
+        JOIN inserted i ON c.IdUsuario = i.IdUsuario AND c.IdContenido = i.IdContenido
     )
     BEGIN
-    PRINT "Ya existe una calificación para este contenido."
+    PRINT 'Ya existe una calificación para este contenido.'
     RETURN;
     END
 

@@ -34,6 +34,30 @@ namespace Servicio
             }
         }
 
+        public object ObtenerValor(string consulta, List<SqlParameter> parametros)
+        {
+            try
+            {
+                comando.Parameters.Clear();
+                comando.CommandText = consulta;
+                comando.CommandType = CommandType.Text;
+
+                if (parametros != null)
+                    comando.Parameters.AddRange(parametros.ToArray());
+
+                return ejecutarEscalar();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                if (conexion.State == ConnectionState.Open)
+                    conexion.Close();
+            }
+        }
+
         public SqlDataReader Lector
         {
             get { return lector; }
@@ -175,10 +199,10 @@ namespace Servicio
                         comando.Parameters.AddRange(parametros.ToArray());
                     }
 
-                    
+
                     string mensajeSalida = "";
 
-                    
+
                     conexion.InfoMessage += (sender, e) =>
                     {
                         foreach (SqlError info in e.Errors)
