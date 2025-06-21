@@ -1,6 +1,6 @@
 
 
-USE BD2_TPI_vPRUEBA
+USE BD2_TPI_G04
 GO
 
 --vista_topNCanciones: Vista que muestra las canciones mas reproducidas en forma descendente

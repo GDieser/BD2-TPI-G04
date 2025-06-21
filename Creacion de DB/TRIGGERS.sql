@@ -1,6 +1,6 @@
+ 
 
-
-USE BD2_TPI_vPRUEBA
+USE BD2_TPI_G04
 GO
 
 --trg_finMembresia: al llegar la fecha de vencimiento, actualiza el estado de la membresía del usuario.

@@ -1,9 +1,9 @@
 --Grupo 04 
 
-CREATE DATABASE BD2_TPI_vPRUEBA
+CREATE DATABASE BD2_TPI_G04
 GO 
 
-USE BD2_TPI_vPRUEBA
+USE BD2_TPI_G04
 GO
 
 CREATE TABLE TipoMembresia(
@@ -243,7 +243,3 @@ CREATE TABLE HistorialReproduccion(
     FOREIGN KEY (IdUsuario) REFERENCES Usuario(Id),
     FOREIGN KEY (IdContenido) REFERENCES Contenido(Id) 
 );
-
-
-
-SELECT * FROM Contenido

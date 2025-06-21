@@ -16,7 +16,7 @@ namespace Servicio
 
         public AccesoDatos()
         {
-            conexion = new SqlConnection("server=.\\SQLEXPRESS; database=BD2_TPI_vPRUEBA; integrated security=true");
+            conexion = new SqlConnection("server=.\\SQLEXPRESS; database=BD2_TPI_G04; integrated security=true");
             comando = new SqlCommand();
 
         }

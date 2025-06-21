@@ -1,6 +1,6 @@
 
 
-USE BD2_TPI_vPRUEBA
+USE BD2_TPI_G04
 GO
 
 --sp_eliminarPlaylist: elimina una playlist y sus asociaciones.

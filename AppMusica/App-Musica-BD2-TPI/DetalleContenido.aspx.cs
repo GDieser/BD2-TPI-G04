@@ -193,11 +193,19 @@ namespace App_Musica_BD2_TPI
             }
             else
             {
+                List<SqlParameter> insertParametros = new List<SqlParameter>
+                {
+                    new SqlParameter("@idUsuario", idUsuario),
+                    new SqlParameter("@idContenido", idContenido),
+                    new SqlParameter("@puntuacion", puntuacion)
+                };
+
                 string insertQuery = @"
                     INSERT INTO Calificaciones(IdUsuario, IdContenido, Puntuacion, Fecha) 
                     VALUES (@idUsuario, @idContenido, @puntuacion, GETDATE())";
 
-                datos.EjecutarConsulta(insertQuery, parametros);
+                datos.EjecutarConsulta(insertQuery, insertParametros);
+
                 Response.Redirect(Request.RawUrl);
             }
         }

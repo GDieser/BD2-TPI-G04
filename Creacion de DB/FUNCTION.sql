@@ -1,6 +1,6 @@
 
 
-USE BD2_TPI_vPRUEBA
+USE BD2_TPI_G04
 GO
 
 -- fn_duracionTotalPlaylist: Funcion que devuelve la duracion en segundos de la playlist ingresada como parametro
