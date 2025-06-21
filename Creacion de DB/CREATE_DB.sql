@@ -1,9 +1,9 @@
---Grupo 04
+--Grupo 04 
 
-CREATE DATABASE BD2_TPI_G04
+CREATE DATABASE BD2_TPI_vPRUEBA
 GO 
 
-USE BD2_TPI_G04
+USE BD2_TPI_vPRUEBA
 GO
 
 CREATE TABLE TipoMembresia(
@@ -246,3 +246,4 @@ CREATE TABLE HistorialReproduccion(
 
 
 
+SELECT * FROM Contenido

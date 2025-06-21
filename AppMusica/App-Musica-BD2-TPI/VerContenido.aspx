@@ -10,12 +10,13 @@
             <br />
             <h1>Lista de Canciones</h1>
             <hr />
-            <br />
 
             <%if (usuario != null && usuario.Membresia)
                 { %>
             <asp:Button ID="btnAgregar" runat="server" CssClass="btn btn-warning " Text="➕ Agregar" OnClick="btnAgregar_Click" />
+            <hr />
             <% } %>
+
         </div>
         <div class="d-flex align-items-center justify-content-center">
             <asp:GridView ID="gvCanciones" runat="server" DataKeyNames="IdContenido" AutoGenerateColumns="False" CssClass="table table-striped table-hover table-bordered align-middle text-center" OnSelectedIndexChanged="gvCanciones_SelectedIndexChanged" OnRowCommand="gvCanciones_RowCommand" GridLines="None">
@@ -47,6 +48,6 @@
         <a href="ListaTopCanciones.aspx" class="btn btn-primary">Ver Top Contenido mas Escuchado!</a>
     </div>
 
-
+    <hr />
 
 </asp:Content>

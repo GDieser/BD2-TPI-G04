@@ -1,8 +1,8 @@
-USE BD2_TPI_G04
+
+
+USE BD2_TPI_vPRUEBA
 GO
 
---German Dieser
---1)
 --sp_eliminarPlaylist: elimina una playlist y sus asociaciones.
 
 CREATE PROCEDURE sp_eliminarPlaylist
@@ -29,8 +29,9 @@ BEGIN
     END CATCH
 END;
 
+GO
 
---6) sp_agregarCancionAPlaylist agrega una canción a una playlist, validando que no esté repetida.
+-- sp_agregarCancionAPlaylist agrega una canción a una playlist, validando que no esté repetida.
 
 CREATE PROCEDURE sp_agregarCancionAPlaylist
     @IdPlaylist BIGINT,

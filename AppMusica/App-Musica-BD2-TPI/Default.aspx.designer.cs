@@ -13,5 +13,32 @@ namespace App_Musica_BD2_TPI
 
     public partial class Default
     {
+
+        /// <summary>
+        /// rptAlbumes control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater rptAlbumes;
+
+        /// <summary>
+        /// rptArtistas control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater rptArtistas;
+
+        /// <summary>
+        /// rptPlaylists control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater rptPlaylists;
     }
 }
