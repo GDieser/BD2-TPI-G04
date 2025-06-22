@@ -44,15 +44,32 @@ La base de datos respalda la lógica del sistema, gestionando entidades como:
 ## ⚙️ Componentes Técnicos
 
 ### 🔄 Triggers
-_(Detalles...)_
+
+- trg_finMembresia
+- trg_registrarReproduccion
+- trg_limitarPuntuacion
 
 ### ⚙️ Procedimientos almacenados
-_(Detalles...)_
+
+- sp_eliminarPlaylist
+- sp_agregarCancionAPlaylist
 
 ### 👁️‍🗨️ Vistas
-_(Detalles...)_
+
+- vista_topNCanciones
+- vista_usuariosActivos
+- vista_comentariosRecientes
+
+### 🛠️ Función
+
+- fn_duracionTotalPlaylist
 
 ---
 
 ## 📝 Recomendaciones para el funcionamiento de la Base de Datos SQL y la aplicación en ASP.NET
-_(Detalles...)_
+
+- La aplicación está diseñada desde la clase de acceso a datos para conectarse a: BD2_TPI_G04, la misma debe ser creada, insertar su datos y crear las diferentes funcionalidades para el correcto funcionamiento de al app ASP.
+- Cuenta con el usuario administrador: admin123 pass: 1234, el cual contará con totas las facultades de la aplicación. Además de varios usuarios con cuentas activas o no (por las dudas revisar fechas de vto).
+
+
+## Grupo 04.
